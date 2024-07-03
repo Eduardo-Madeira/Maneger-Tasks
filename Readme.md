@@ -9,8 +9,8 @@ classDiagram
     App "1" *-- "1" Tarefa
 
     class Tarefa{
-        -String: tiulo
-        -LocalDAte: data de Entrega
+        -String: titulo
+        -LocalDate: data de Entrega
         -LocalDate: data de Conclusão
         -Categoria: categoria
         -ArrayList~Pessoas~ responsaveis
